@@ -1,0 +1,68 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - CLion
+.idea/
+cmake-build-*/
+
+# IDE - Eclipse
+.project
+.cproject
+.settings/
+
+# Build artifacts
+build/
+dist/
+*.bin
+*.hex
+*.elf
+*.map
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# Node.js (if using web-based tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if using Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Backup files
+*.bak
+*.backup
